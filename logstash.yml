@@ -1,0 +1,13 @@
+http.host: 127.0.0.1
+
+# runtime settings
+path.data: /var/lib/logstash
+path.config: /etc/logstash/conf.d
+path.logs: /var/log/logstash
+
+# debug level
+#log.level: debug
+
+# auto reload config in seconds
+config.reload.automatic: true
+config.reload.interval: 30
