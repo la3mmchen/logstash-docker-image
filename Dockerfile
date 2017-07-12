@@ -8,7 +8,7 @@ ADD logstash.yml /etc/logstash/logstash.yml
 ADD log4j2.properties /etc/logstash/log4j2.properties
 ADD jvm.options /etc/logstash/jvm.options
 ADD sudoers /etc/sudoers
-ADD conf.d/logstash.conf /etc/logstash/conf.d/logstash.conf
+ADD conf.d/logstash.conf /etc/logstash/logstash.conf
 ENV JAVACMD /usr/bin/java
 USER root
 RUN chown logstash:logstash /etc/logstash/logstash.yml
