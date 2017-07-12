@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/
+/usr/share/logstash/bin/logstash -f /etc/logstash/logstash.conf
