@@ -1,4 +1,4 @@
-FROM valerianomanassero/java-centos:latest
+FROM mamohr/centos-java
 USER root
 ENV JAVACMD /usr/bin/java
 ENV GOPATH /go-shizzle
