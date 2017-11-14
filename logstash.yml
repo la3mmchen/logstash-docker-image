@@ -12,6 +12,6 @@ xpack.monitoring.elasticsearch.password: changeme
 xpack.management.enabled: true
 xpack.management.elasticsearch.url: "http://elastic-1:9200/"
 xpack.management.elasticsearch.username: elastic
-xpack.management.elasticsearch.password: changme
+xpack.management.elasticsearch.password: changeme
 xpack.management.logstash.poll_interval: 5s
 xpack.management.pipeline.id: ["filebeat", "metricbeat", "generic_http"]
